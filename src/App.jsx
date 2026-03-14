@@ -1,11 +1,11 @@
-import React from "react";
-import StudentDetails from "./StudentDetails";
+import StudentManager from "./StudentManager";
 
-export default function App() {
+function App() {
   return (
     <div>
-      <h1>Welcome to Student Portal</h1>
-      <StudentDetails />
+      <StudentManager />
     </div>
   );
 }
+
+export default App;
